@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	<link rel="stylesheet" href="css/semantic.min.css">
+	<link rel='stylesheet prefetch'
+		href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/semantic.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<title>Healthy Minds UofT</title>
+</head>
+
+<body>
+
+	<header class="site-header">
+		<img src="images/logo.png" class="header-logo" height="120" width="130">
+		<div class="dropdown">
+			<button class="dropbtn">Menu</button>
+			<div class="dropdown-content">
+				<a onclick="goTo('home')" class="item">Home</a>
+				<a onclick="goTo('events')" class="item">Upcoming Events</a>
+				<a onclick="goTo('news')" class="item">Newsletter</a>
+				<a onclick="goTo('mentorship')" class="item">Mentorship Program</a>
+				<a onclick="goTo('resources')" class="item">Resources</a>
+				<a onclick="goTo('sponsors')" class="item">Sponsors</a>
+				<a onclick="goTo('team')" class="item">The Team</a>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="site-container">
+		<div class="no-dropdown">
+
+			<div class="ui large center six item secondary pointing borderless menu">
+				<a onclick="goTo('home')" class="item">Home</a>
+				<a onclick="goTo('events')" class="item">Upcoming Events</a>
+				<a onclick="goTo('news')" class="item">Newsletter</a>
+				<a onclick="goTo('mentorship')" class="item">Mentorship Program</a>
+				<a onclick="goTo('resources')" class="item">Resources</a>
+				<a onclick="goTo('sponsors')" class="item">Sponsors</a>
+				<a onclick="goTo('team')" class="item">The Team</a>
+			</div>
+		</div>
+
+		<div class="page-container home text">
+			<div class="w3-row">
+				<div class="w3-col m4 l5">
+					<div class="page-heading">Welcome!</div>
+
+					<div class="home-content">
+						<br>
+						<h1>What We Do</h1>
+
+						<p>This club aims to help students build a strong, supportive community, reduce stigmatization
+							of mental health,
+							raise awareness to the barriers that those with mental illnesses face on campus, provide
+							strategies for self-care
+							to maximize each individual's potential for success, and raise the quality of life for
+							students living on and off
+							campus.</p>
+
+
+					</div>
+				</div>
+				<div class="w3-rest">
+					<div class="home-img">
+						<img src="images/uni.jpg" width="600" height="350" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="page-container events text">
+			<div class="page-heading">Upcoming Events</div>
+			<a href="http://www.facebook.com/healthymindsut/">
+				<h3>Scavenger Hunt</h3>
+			</a>
+			<p><b>When:</b> TBD
+				<br><b>Where:</b> Queen's Park
+				<br><b>What:</b> TBD
+			</p>
+			<a href="http://www.facebook.com/healthymindsut/">
+				<h3>Fall Bake Sale</h3>
+			</a>
+			<p><b>When:</b> TBD
+				<br><b>Where:</b> TBD
+				<br><b>What:</b> TBD
+			</p>
+			<a href="http://www.facebook.com/healthymindsut/">
+				<h3>Community Dinner</h3>
+			</a>
+			<p><b>When:</b> TBD
+				<br><b>Where:</b> TBD
+				<br><b>What:</b> TBD
+			</p>
+		</div>
+
+
+
+
+		<div class="page-container news">
+			<div class="page-heading" align="left">Newsletter</div>
+
+			<div class="ui padded piled segment text">
+				<div class="ui header">Issue #1: January 1, 2018</div>
+				<div class="ui clearing divider"></div>
+				Coming soon.
+			</div>
+		</div>
+	</div>
+
+	<div class="page-container mentorship">
+		<div class="page-heading">Peer Support Mentorship Program</div>
+
+		<div class="ui list">
+			<div class="item">
+				<h3>About</h3>
+				<p>Our peer mentorship program pairs upper year students who have
+					lived experience with mental illness with 1st and 2nd year students
+					who are struggling with self-care and their mental health on campus.
+					All mentors are safeTalk certified and equipped with on and off
+					campus resources available to students.<br><br>
+
+					Mentees and Mentors will meet on a monthly basis (at minimum), and
+					will spend the semester working through a WRAP workbook to create
+					a personalized crisis plan. Mentors are encouraged to discuss
+					personal experiences with mental illness and strategies used to
+					overcome their adversity.
+				</p>
+
+				<h4>Mentor applications will be open in the fall.</h4>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="page-container resources">
+		<div class="page-heading">Resources</div>
+
+		<div class="ui list">
+			<div class="item">
+				<a class="header" href="https://www.studentlife.utoronto.ca/hwc">Health and Wellness Centre</a>
+				<div class="text-description">
+					<p>The health and wellness centre at the univeristy of Toronto is your
+						first stop if you think you may need some help. <br><br>
+
+						They offer individual
+						counselling or psychotherapy for adjustment and transition issues,
+						anxiety, depression, self-esteem, relationship/family issues,
+						body image and eating issues, sexual orientation, gender identity,
+						etc., pharmacotherapy, embedded councilling, group therapy, and
+						follow a mental wellness framework.</p>
+				</div>
+				<hr>
+			</div>
+			<div class="item">
+				<a class="header" href="https://stellasplace.ca">Stella's Place</a>
+				<div class="text-description">
+					<p>Stella’s Place offers peer supports, clinical, employment,
+						wellness, and recovery services as well as opportunities to explore
+						your creative self through studio programs. The goal of this
+						holistic approach is to help young adults learn skills, find
+						connection and become empowered to manage their own health. They
+						also offer peer support chat and resources online as a way for
+						people to connect with Stella’s. Everything at Stella’s Place has
+						been, and will always be, designed by young adults, with young
+						adults, for young adults.<br><br>
+
+						We are committed to including young adults with lived and diverse
+						experience in design, delivery and evaluation – along with
+						professionals – to ensure relevant and responsive programs. We
+						will always offer many ways for you to get involved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="page-container sponsors">
+		<div class="page-heading">Sponsors</div>
+		<div class="w3-row">
+			<div class="w3-col m4 l5">
+
+
+				<div>
+					<br>
+					<h1>Founding Farmers</h1>
+
+					<p><a
+							href="https://www.forbes.com/sites/brianrashid/2017/03/12/keeping-current-in-changing-times-how-founding-farmers-most-booked-in-us-for-five-years-running/#6aa8b14d5fa8">Founding
+							Farmers</a>: The Most Booked Restaurant In The U.S. 5 Years Running.</p>
+				</div>
+			</div>
+			<div class="w3-col m4 l7">
+				<a href="https://www.wearefoundingfarmers.com/locations/dc/"><img src="images/Founding-Farmers.jpg"
+						width="300" height="250" class="farmers"></a>
+			</div>
+		</div>
+		<hr>
+		<div class="w3-row">
+			<div class="w3-col m4 l5">
+
+
+				<div>
+					<h1>Studypool</h1>
+
+					<p><a href="https://www.entrepreneur.com/article/283320">Studypool</a> is an online marketplace that
+						connects students with questions with tutors who can answer them. <br>Using <a
+							href="https://www.entrepreneur.com/article/283320">Studypool</a> gives you access to
+						thousands of verified tutors to help you with any question at any time. <br><br> Studypool is
+						the largest online tutoring platform. They have helped over 1.4 million students and have close
+						to 45 thousand tutors on their platform. Their mission is to use technology to help students
+						learn more efficiently.
+					</p>
+				</div>
+			</div>
+			<div class="w3-col m4 l7">
+				<a href="http://www.studypool.com" class="studypool"><img src="images/big-text.png" width="400"
+						height="150"></a>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="w3-row">
+			<div class="w3-col m4 l5">
+				<div class="levelup">
+					<h1>Level Up Reality</h1>
+
+					<p>Levelup Reality takes you beyond the limits of reality into a rich immersive experience where you
+						can connect with others while engaging all of your senses. Offering virtual reality in Toronto,
+						we have many single and multiplayer experiences in a variety of genres such as adventure,
+						shooters, action, escape rooms, short films, etc. This entertainment is well-suited to be
+						enjoyed solo, with friends, families, groups, or parties. Come level up your reality today!
+						Here are some of the many experiences you can get immersed in at Levelup Reality:
+						<ul>
+							<li>Become a soldier: Duck behind cover, alternate between ballistic weapons, and fend off
+								enemies.</li>
+							<li>Survive a zombie apocalypse: Team up in multiplayer with friends, and protect each other
+								from the incoming hordes.</li>
+							<li>Explore the deep sea: Dive into the ocean and interact with exotic aquatic creatures.
+							</li>
+							<li>And many more genres such as adventure, action, escape rooms, short films, etc…</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="w3-col m4 l7">
+				<a href="https://levelupreality.ca/"> <img src="images/levelup.png" width="500" height="250"
+						class="lvlup-img"></a>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="page-container team">
+		<div class="page-heading">The Team</div>
+		<div class="ui three column grid">
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/sunny.jpg" class="headshot" title="Nicole is a fourth year student studying Psychology and Cognitive Science. Inspired to provide guidance and community to other students suffering from mental illness, she founded Healthy Minds U of T in fall 2016. Since then, Nicole has discovered her love of leadership and helping others.
+
+In her spare time you will find her playing Hearthstone, drinking tea, and trying to get her cats to love her.
+
+">
+					</div>
+					<div class="content">
+						<div class="header">Nicole Provan</div>
+						<span class="text">Co-President</span>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/sunny.jpg" class="headshot"
+							title="Sunny is a 4th year student at U of T, studying Neuroscience, Psychology, and Buddhism & Mental Health.
+
+In her spare time (all the time), youll find her:
+
+1. creating spotify playlists for various activities: running, cooking, studying, sleeping...
+2. laughing over funny videos of shibes and doggos
+3. crying over the millions of tabs she has open on chrome
+4. writing to-do lists (but never checking off any of the items)
+5. practicing being mindful whenever possible: of her thoughts, feelings, environment, and of others
+
+Sunny is an advocate for Healthy Minds because she realizes the importance of balancing her mental, physical and spiritual well-being while living a busy life. She wants to share what she’s learned with her peers and friends, and hopes to learn from others while doing so.  Sunny is honored and excited to be your co-president this year!">
+					</div>
+					<div class="content">
+						<div class="header">Sunny Wang</div>
+						<span class="text">Co-President</span>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/sunny.jpg" class="headshot"
+							title="Sarah is in her fourth year of studies at UofT in Religion and Philosophy, with a little bit of this and a little bit of that always on the side. She is passionate about suicide prevention, youth and adolescent mental health, and advocacy for accessible mental health resources in immigrant and low-income urban communities.
+
+In times of her leisure, you can find Sarah at the gym, talking to her herb and vegetable plants, face buried in nutrition and spirituality books, meditating, or curled up shoeless (no matter where she is) with a cup of caffeinated liquid gold. Sarah is always eager at the opportunity for a personal conversation—don’t be shy and come say hi!">
+					</div>
+					<div class="content">
+						<div class="header">Sarah Kamaluddin</div>
+						<span class="text">Vice President</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui three column grid">
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/anika.jpg" class="headshot"
+							title="Anika is a third year student studying Global Heath. Anika wants to support and empower others towards the journey to a healthy mind and an overall well-balanced lifestyle.
+
+When not buried in her studies, you can find Anika exploring new neighborhoods, eating out with family and friends, biking, and watching TV shows.">
+					</div>
+					<div class="content">
+						<div class="header">Anika Chowdhury</div>
+						<span class="text">Secretary</span>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/anika.jpg" class="headshot"
+							title="Bushra is a 3rd year student at UofT, majoring in Neuroscience.
+
+Bushra's favourite pastimes include:
+
+1. Writing about her life experiences
+2. Scrolling through Facebook and gushing over cute animal memes
+3. Stress napping and baking during midterm and finals season
+
+Bushra believes in mental health advocacy because through advocates like herself, she was able to find help on campus when she needed the most. Bushra believes in change through strong support systems and community. She hopes to share her experiences and learn from her peers and overall have an amazing time with the people at Healthy Minds!">
+					</div>
+					<div class="content">
+						<div class="header">Bushra Ahmed</div>
+						<span class="text">Secretary</span>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/robyn.jpg" class="headshot">
+					</div>
+					<div class="content">
+						<div class="header">Robyn Cottrell</div>
+						<span class="text">Promotions Manager</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui three column grid">
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/robyn.jpg" class="headshot">
+					</div>
+					<div class="content">
+						<div class="header">TBD</div>
+						<span class="text">Social Media Manager</span>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/robyn.jpg" class="headshot">
+					</div>
+					<div class="content">
+						<div class="header">Crystal Lin</div>
+						<span class="text">Treasurer of Funding</span>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/robyn.jpg" class="headshot">
+					</div>
+					<div class="content">
+						<div class="header">TBD</div>
+						<span class="text">Treasurer of Budgets</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui three column grid">
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/robyn.jpg" class="headshot">
+					</div>
+					<div class="content">
+						<div class="header">TBD</div>
+						<span class="text">Events Director</span>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/robyn.jpg" class="headshot">
+					</div>
+					<div class="content">
+						<div class="header">Adam Lieberman</div>
+						<span class="text">Webmaster</span>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/robyn.jpg" class="headshot">
+					</div>
+					<div class="content">
+						<div class="header">TBD</div>
+						<span class="text">First Year Representative</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui three column grid">
+			<div class="column">
+				<div class="ui fluid card">
+					<div class="image">
+						<img src="team_mugs/robyn.jpg" class="headshot">
+					</div>
+					<div class="content">
+						<div class="header">TBD</div>
+						<span class="text">First Year Representative</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script>
+		var goTo = function (c) {
+			var pages = ['home', 'sponsors', 'events', 'mentorship', 'news', 'resources', 'team'];
+
+			for (var i = 0; i < pages.length; i++) {
+				if (c != pages[i]) {
+					$('.' + pages[i]).hide();
+				}
+			}
+			$('.' + c).fadeIn();
+		};
+	</script>
+	<footer>
+		<!-- U of T Student Group Disclaimer -->
+		<div style="background-color:#fff;font-family: Arial, Verdana, Helvetica, San Serif; font-size: 9px; text-align: center; display:block; width: 800px; margin: 15px auto;"
+			class="footer">DISCLAIMER: The content of this web site is entirely the responsibility of a campus
+			organization which is independent from the University of Toronto. The opinions expressed do not necessarily
+			reflect those of the University. The University of Toronto shall not be liable for any damage resulting from
+			the use or misuse of the contents of this web site. </div> <!-- End of Disclaimer -->
+	</footer>
+</body>
+
+
+
+</html>
